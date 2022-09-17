@@ -1,0 +1,131 @@
+.navbar .megamenu{ padding: 1rem; }
+/* ============ Vue écrans d'ordinateurs ============ */
+@media all and (min-width: 992px) {
+	
+	.navbar .nw-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+/* ============ Vue sur mobiles ============ */
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	  max-height: 90vh;
+	  margin-top: 1.3rem;
+	}
+}
+.bg-nw{
+  background-color: #1D2140;
+}
+.bg-nw-light{
+	background-color: #364B99;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	padding-top: 2rem;
+}
+.dropdown-menu{
+	border: 1px solid #364B99;
+	border-radius: 0;
+}
+.logo-header{
+  margin-top: 23px;
+  margin-bottom: 5px;
+  width: 190px;
+  height: 50px;
+}
+.logo-footer{
+	margin-top: 1rem;
+  width: 190px;
+  height: 50px;
+}
+.title{
+	font-size: 20px;
+	color: #3eb4e8;
+}
+.separate-title{
+	color: #3eb4e8;
+}
+.ico{
+  width: 24px;
+  height: 24px;
+  margin-bottom: 5px;
+}
+.subtitle{
+	color:white;
+	font-weight: bold;
+	margin-left: 0.5rem;
+}
+.tree{
+	color: white;
+	text-decoration: none;
+	font-family: "open sans", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+	margin-left: 0.5rem;
+}
+.tree:hover{
+	color: #3eb4e8;
+	text-decoration: none;
+	font-family: "open sans", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+	margin-left: 0.5rem;
+}
+.border-left{
+	margin-left: 2.4rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	border-left: 2px solid white;
+}
+.text-footer{
+  margin-top: 1rem;
+	color: white;
+	text-decoration: none;
+	font-family: "open sans", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+	list-style: none;
+}
+.link-footer{
+	margin-top: 1rem;
+	color: white;
+	text-decoration: none;
+	font-family: "open sans", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.link-footer:hover{
+	color: #3eb4e8;
+	text-decoration: none;
+	font-family: "open sans", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.link-header{
+	padding: 1rem;
+	color: white;
+	text-decoration: none;
+	font-family: "open sans", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.link-header:hover{
+	color: #3eb4e8;
+	text-decoration: none;
+	font-family: "open sans", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.col-megamenu{
+	margin-bottom: 3rem;
+}
+.active{
+	font-weight: bolder;
+}
+.align-text{
+	padding-top: 4px;
+}
+.list{
+	padding-left: 1rem;
+}
